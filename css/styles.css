@@ -1,0 +1,245 @@
+body{
+    font-family: "LibreBaskerville";
+}
+#title{
+    background-image: linear-gradient(to bottom, #f1fefe, rgba(241, 254, 254, 0));
+}
+.container-fluid{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 3%;
+    padding-bottom: 7%;
+}
+
+h1{
+
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h2{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+p{
+    color: #374b5c;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-size: 42px;
+    color: #374b5c;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+}
+
+.collapse{
+    color: #374b5c;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+.download{
+    margin: 5% 3% 5% 0;
+}
+
+.title-image{
+    position: absolute;
+}
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+    cursor: pointer;
+}
+#testimonials{
+    text-align: center;
+    background-color: #fbfefe;
+    color: #374b5c;
+        width: 85.375rem;
+        height: 31.75rem;
+        margin: 5.125rem 0 6.313rem;
+        padding: 4.938rem 8.688rem 2.25rem;
+        background-color: #fbfefe;
+}
+#testimonials h2{
+    font-size: 2.25rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+}
+#testimonials p{
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    text-align: center;
+}
+.lady-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+
+}
+#press{
+    background-color: #fbfefe;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+#pricing{
+    padding: 30px 150px 30px 150px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+#pricing p{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width:900px) {
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0deg);
+    }
+}
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+}
+#cta h3{
+    font-size: 2.5rem;
+    font-family: "Montserrat-Bold";
+    color: white;
+    padding-top: 5%;
+}
+
+body {
+    font-family: 'Signika', sans-serif;
+ }
+ .bg-grey {
+    background: #292929;
+ }
+ .logo-footer {
+    margin-bottom: 40px;
+ }
+ footer {
+        color: grey;
+ }
+ footer p, a {
+font-size: 12px;
+font-family: 'Roboto', sans-serif;
+}
+footer h6 {
+font-family: 'Playfair Display', serif;
+margin-bottom: 40px;
+position: relative;
+}
+footer h6:after {
+position: absolute;
+content: "";
+background: grey;
+width: 12%;
+height: 1px;
+left: 0;
+bottom: -20px;
+}
+ .btn-footer {
+             color: grey;
+          
+            text-decoration: none;
+            border: 1px solid;
+            border-radius: 43px;
+            font-size: 13px;
+            padding: 7px 30px;
+            line-height: 47px;
+ }
+ .btn-footer:hover {
+            
+            text-decoration: none;
+           
+ }
+.form-footer input[type="text"] {
+    border: none;
+border-radius: 16px 0 0 16px;
+outline: none;
+padding-left: 10px;
+
+}
+::placeholder {
+font-size: 10px;
+padding-left: 10px;
+font-style: italic;
+}
+.form-footer input[type="button"] {
+border: none;
+background:#232323;
+    margin-left: -5px;
+color: #fff;
+outline: none;
+border-radius: 0 16px 16px 0;
+padding: 2px 12px;
+}
+ .social .fa {
+color: grey;
+font-size: 22px;
+padding: 10px 15px;
+background: #3c3c3c;
+}
+ footer ul li {
+list-style: none;
+display: block;
+}
+footer ul  {
+padding-left: 0;
+}
+footer ul  li a{
+text-decoration: none;
+color: grey;
+text-decoration:none;
+}
+a:hover {
+text-decoration: none;
+color: #f5f5f5 !important;
+
+}
+.logo-part {
+border-right: 1px solid grey;
+height: 100%;
+}
